@@ -1,0 +1,37 @@
+name: FCKReels
+options:
+  bundleIdPrefix: com.dylanbabitch
+  deploymentTarget:
+    iOS: "16.0"
+  createIntermediateGroups: true
+
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    MARKETING_VERSION: "0.1.0"
+    CURRENT_PROJECT_VERSION: "1"
+    TARGETED_DEVICE_FAMILY: "1,2"
+    IPHONEOS_DEPLOYMENT_TARGET: "16.0"
+
+targets:
+  FCKReels:
+    type: application
+    platform: iOS
+    sources:
+      - path: Sources
+    info:
+      path: Sources/Supporting/Info.plist
+      properties:
+        CFBundleDisplayName: FCKReels
+        ITSAppUsesNonExemptEncryption: false
+        UILaunchScreen: {}
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+        NSAppTransportSecurity:
+          NSAllowsArbitraryLoads: false
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.dylanbabitch.fckreels
+        PRODUCT_NAME: FCKReels
+        GENERATE_INFOPLIST_FILE: NO
+    scheme: {}
