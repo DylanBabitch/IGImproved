@@ -1,4 +1,4 @@
-# FCKReels
+# IGImproved
 
 A free, open-source iOS clone of SocialLite: an Instagram wrapper that lets
 you turn off Reels, Explore, suggested posts, and ads independently.
