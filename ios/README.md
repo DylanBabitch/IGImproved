@@ -1,4 +1,4 @@
-# FCKReels — iOS app
+# IGImproved — iOS app
 
 A free, open-source iOS app that loads Instagram in an in-app browser and
 filters out Reels, Explore, suggested posts, and ads — each independently
